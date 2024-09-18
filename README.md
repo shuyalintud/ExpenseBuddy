@@ -1,4 +1,4 @@
-# Project-Proposal
+# meal-plan-generator
 Personalized Meal Plan Generator
 
 i. Brief Description: 
