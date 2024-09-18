@@ -1,9 +1,12 @@
 # Project-Proposal
 Personalized Meal Plan Generator
 
-i. Brief Description: The Personalized Meal Plan Generator creates custom meal plans based on user preferences, dietary restrictions, and health goals. It collects input on dietary needs, favorite and disliked ingredients, meal frequency, and preperation time to generate a fitting meal plan. Using a comprehensive recipe database, it ensures consistency with user needs and provides a balanced diet. The outcome includes a detailed meal plan, recipe instructions, nutritional information, and a shopping list for user convenience.
+i. Brief Description: 
+
+The Personalized Meal Plan Generator creates custom meal plans based on user preferences, dietary restrictions, and health goals. It collects input on dietary needs, favorite and disliked ingredients, meal frequency, and preperation time to generate a fitting meal plan. Using a comprehensive recipe database, it ensures consistency with user needs and provides a balanced diet. The outcome includes a detailed meal plan, recipe instructions, nutritional information, and a shopping list for user convenience.
 
 ii. Algorithm and Libraries:
+
 Algorithm: The core algorithm involves a filtering and matching process. It first filters recipes based on dietary restrictions and health goals. Then, it matches recipes with the user’s favorite and disliked ingredients. Finally, it creates a meal plan that meets the user’s requirements for meal frequency and preparation time.
 
 Libraries:
@@ -13,6 +16,7 @@ SciPy: For any advanced optimization or decision-making algorithms.
 Flask/Django (optional): For creating a web-based user interface if required.
 
 iii. Data Needed:
+
 User Input Data:
 Dietary Restrictions (e.g., gluten-free, vegetarian).
 Health Goals (e.g., weight loss, muscle gain, balanced diet).
@@ -27,6 +31,7 @@ Nutritional information for each recipe (e.g., calorie count, macronutrients).
 Preparation instructions and time required.
 
 iv. Expected Outcome:
+
 The Personalized Meal Plan Generator will provide users with a tailored meal plan that includes:
 Daily Meal Plan: A schedule of meals for each day based on user preferences (breakfast, lunch, dinner, and snacks).
 Recipes: Detailed instructions and nutritional information for each selected recipe.
