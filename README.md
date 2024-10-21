@@ -1,4 +1,5 @@
 #Expense Buddy
+#Shuya Lin (6068251)
 
 i. Brief Description:
 
