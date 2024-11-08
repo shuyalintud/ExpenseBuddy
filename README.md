@@ -1,4 +1,4 @@
-#Expense Buddy
+#Expense Buddy #Shuya Lin (6068251)
 
 i. Brief Description:
 
@@ -8,28 +8,16 @@ ii. Algorithm and Libraries:
 
 Algorithm: The core algorithm involves parsing and aggregating the expense data to identify total payments made and amounts owed by each participant. It calculates the fair share of each expense for all involved roommates, then determines the net balance by comparing individual contributions and liabilities. Based on these calculations, it provides a breakdown of amounts owed between roommates.
 
-Libraries:
-Pandas: For reading, organizing, and analyzing the CSV data.
-NumPy: For numerical computations, such as calculating totals and balancing payments.
-Matplotlib (optional): For creating visual representations of the expense breakdown and settlement.
-Flask/Django (optional): To develop a web-based interface, allowing users to upload expense files and view results online.
+Libraries: Pandas: For reading, organizing, and analyzing the CSV data. NumPy: For numerical computations, such as calculating totals and balancing payments. Matplotlib (optional): For creating visual representations of the expense breakdown and settlement. Flask/Django (optional): To develop a web-based interface, allowing users to upload expense files and view results online.
 
 iii. Data Needed:
 
 Expense Data:
 
-CSV File: Should contain the following columns:
-Date: The date the expense was incurred.
-Amount: The total amount of the expense.
-Payer: The roommate who paid for the expense.
-Participants: The roommates who shared in the expense.
-Roommate Information: A list of all roommates included in the expense-sharing arrangement.
+CSV File: Should contain the following columns: Date: The date the expense was incurred. Amount: The total amount of the expense. Payer: The roommate who paid for the expense. Participants: The roommates who shared in the expense. Roommate Information: A list of all roommates included in the expense-sharing arrangement.
 
 iv. Expected Outcome:
 
 Expense Buddy will provide users with a detailed breakdown of shared expenses, including:
 
-Individual Balances: The amount each roommate owes or is owed.
-Settlement Instructions: Clear recommendations on how roommates can settle their balances with one another.
-Expense Summary: A detailed view of each person’s contributions and share of the expenses.
-This tool will streamline the management of shared costs among roommates, ensuring transparency and promoting fairness. The output will help roommates easily understand and settle debts, enhancing financial harmony in shared living spaces.
+Individual Balances: The amount each roommate owes or is owed. Settlement Instructions: Clear recommendations on how roommates can settle their balances with one another. Expense Summary: A detailed view of each person’s contributions and share of the expenses. This tool will streamline the management of shared costs among roommates, ensuring transparency and promoting fairness. The output will help roommates easily understand and settle debts, enhancing financial harmony in shared living spaces.
