@@ -53,7 +53,8 @@ pytest -v test_expense_buddy.py
 
 Below is a screenshot of the test results, showing that all tests have passed successfully:
 
-c:\Users\User\Desktop\test passed.png
+![Test Results](test_passed.png)
+
 
 
 
