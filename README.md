@@ -45,7 +45,13 @@ To run the project, you need to have Python installed. Then you can run the foll
 python expense_buddy.py <path_to_csv_file>
 ```
 ## Testing
-To verify that all functions work as expected, you can run the tests provided in `test_expense_buddy.py`. Use the following command to run the tests:
+To verify that all functions work as expected, you can run the tests provided in `test_expense_buddy.py`.Make sure you have `pytest` installed by running:
+
+```bash
+pip install pytest
+```
+
+ Then use the following command to run the tests:
 
 ```bash
 pytest -v test_expense_buddy.py
