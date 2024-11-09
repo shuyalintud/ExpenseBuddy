@@ -1,0 +1,7 @@
+ExpenseBuddy/
+├── src/
+│   ├── expense_buddy.py
+│   └── test_expense_buddy.py
+├── pyproject.toml
+├── README.md
+└── test_passed.png
