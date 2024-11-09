@@ -10,3 +10,7 @@ authors = [
     {name = "Shuya Lin", email = "shuyalin0754@gmail.com"}
 ]
 dependencies = ["pandas>=2.2.3", "numpy>=2.1.3", "pytest>=8.3.3"]
+
+[tool.setuptools]
+packages = ["expense_buddy"]
+package_dir = {"" = "src"}
