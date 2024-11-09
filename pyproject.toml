@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "expense-buddy"
+version = "0.1.0"
+description = "A tool for managing and settling shared expenses among roommates"
+authors = [
+    {name = "Shuya Lin", email = "shuyalin0754@gmail.com"}
+]
+dependencies = ["pandas>=1.0", "numpy>=1.18", "pytest>=6.0"]
